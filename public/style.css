@@ -1,0 +1,95 @@
+:root {
+    --color-dark: #2c4c7d;
+    --color-light: #599afd;
+}
+
+.bg-dark-blue {
+    background-color: var(--color-dark);
+}
+
+body {
+    background-color: var(--color-dark);
+    min-width: 470px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+
+.form {
+    min-height: 500px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.form input {
+    min-height: 50px;
+}
+.form input[type="submit"] {
+    background-color: var(--color-light);
+    border: none;
+}
+.form input[type="submit"]:hover {
+    border: 1px solid black;
+}
+
+li a {
+    font-size: 1.5rem;
+    color: white;
+}
+li a:hover {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+header:hover {
+    border: 5px solid black;
+}
+
+header a,
+header a:hover {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.news-box img {
+    min-width: 120px;
+    min-height: 120px;
+    width: 100%;
+    height: 100%;
+}
+.news-box:hover {
+    border: 5px solid black;
+}
+
+.news-form {
+    height: 600px;
+}
+
+.news-info {
+    line-height: 10px;
+    margin: 12px 0;
+    font-weight: lighter;
+}
+
+.top-news {
+    min-height: 300px;
+}
